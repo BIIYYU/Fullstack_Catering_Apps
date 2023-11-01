@@ -1,0 +1,82 @@
+# CREATE USER
+POST http://localhost:5000/users
+Content-Type:  application/json
+
+{
+    "name": "NEW USER",
+    "email": "user@gmail.com",
+    "password": "1122",
+    "confpassword": "1122",
+    "role" : "user"
+}
+
+###
+# GET ALL USER
+GET http://localhost:5000/users
+
+###
+#GET SINGLE USER
+GET http://localhost:5000/users/fd85ecc1-6368-4fe1-b9e9-da74f70c6721
+
+###UPDATE USER
+PATCH http://localhost:5000/users/fd85ecc1-6368-4fe1-b9e9-da74f70c6721
+Content-Type:  application/json
+
+{
+    "name": "ABIYYU AQIL",
+    "email": "aqil@gmail.com",
+    "password": "",
+    "confpassword": "",
+    "role" : "admin"
+}
+
+### DELETE USER
+DELETE http://localhost:5000/users/16fd331f-9fb8-4bee-8b80-54cf42d86d95
+
+### LOGIN
+POST http://localhost:5000/login
+Content-Type:  application/json
+
+{
+    "email": "user@gmail.com",
+    "password": "1122"
+}
+
+### GET ME
+http://localhost:5000/me
+
+#### LOGOUT
+DELETE http://localhost:5000/logout
+
+###MENU
+//GET ALL MENU
+GET http://localhost:5000/menu
+
+
+###MENU
+//GET SINGLE MENU
+GET http://localhost:5000/menu/acb57632-7841-4660-96d6-fda20d1153d6
+# GET http://localhost:5000/menu/5a40e778-80be-4b95-8082-113786f4c26f
+
+###
+//POST DATA MENU
+
+POST http://localhost:5000/menu
+Content-Type:  application/json
+
+{
+    "name": "Daging Cincang",
+    "price": 18000
+}
+
+###UPDATE MENU
+PATCH http://localhost:5000/menu/7d4d3d27-71eb-49cb-8cc6-bb3f466059a1
+Content-Type:  application/json
+
+{
+    "name": "MieChan",
+    "price": 18000
+}
+
+### DELETE MENU
+DELETE http://localhost:5000/menu/acb57632-7841-4660-96d6-fda20d1153d6
