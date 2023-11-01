@@ -1,0 +1,89 @@
+{
+  "workbench.colorTheme": "Panda Syntax",
+  "editor.fontFamily": "Fira Code, Consolas, monospace, 'Courier New'",
+  "editor.fontLigatures": true,
+  "editor.cursorBlinking": "expand",
+  "editor.cursorStyle": "line-thin",
+  "terminal.integrated.fontFamily": "",
+  "editor.lineHeight": 2,
+  //tab size
+  "editor.tabSize": 4,
+  "editor.insertSpaces": true,
+  "editor.detectIndentation": false,
+  //tab size
+  "editor.minimap.maxColumn": 80,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.snippetSuggestions": "top",
+  "selectinsidesidebar.defaultStyle": {
+    "backgroundColor": "#023665fe",
+    "overviewRulerColor": "rgba(255,0,199,1)"
+  },
+
+  "workbench.colorCustomizations": {
+    "editor.lineHighlightBackground": "#02233ffe",
+    "editor.lineHighlightBorder": "#fcfcfc"
+  },
+
+  "highlight-matching-tag.styles": {
+    "opening": {
+      "name": {
+        "underline": "yellow"
+      }
+    }
+  },
+  "bracket-pair-colorizer-2.depreciation-notice": false,
+  "search.quickOpen.includeHistory": false,
+  "dashboard.projectData": null,
+  "zenMode.centerLayout": true,
+  "zenMode.fullScreen": true,
+  "zenMode.hideActivityBar": true,
+  "zenMode.hideLineNumbers": true,
+  "zenMode.hideStatusBar": true,
+  "zenMode.hideTabs": true,
+  "zenMode.restore": true,
+  "zenMode.silentNotifications": true,
+  "editor.inlineSuggest.enabled": true,
+  "github.copilot.enable": {
+    "*": true,
+    "yaml": false,
+    "plaintext": false,
+    "markdown": false,
+    "php": true
+  },
+  "editor.fontSize": 15,
+  "editor.wordWrap": "off",
+  "diffEditor.wordWrap": "off",
+  "editor.guides.indentation": true,
+  "editor.guides.bracketPairs": true,
+  //   "editor.inlayHints.enabled": false,
+  "blockman.n04ColorComboPreset": "Lobelia (Gradients)",
+  "blockman.n16EnableFocus": false,
+  "blockman.n04Sub02ColorComboPresetForLightTheme": "none",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "editor.formatOnSave": false,
+"prettier.bracketSameLine": true,
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.rulers": [80],
+    "editor.selectionHighlight": false,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": false
+},
+"workbench.iconTheme": "vscode-icons",
+"emulator.emulatorPathWindows": "C:\\Users\\admla\\AppData\\Local\\Android\\Sdk\\emulator",
+"vsicons.dontShowNewVersionMessage": true,
+"CodeGPT.maxTokens": 1500,
+"window.zoomLevel": -1,
+"workbench.productIconTheme": "bootstrap-product-icons"
+  //   "[php]": {
+  //     "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+  //   }
+  // "php.validate.executablePath": ""
+}
